@@ -25,6 +25,23 @@ The latest version of the module is v0.5.0 `BETA`.
 
 ```php
 use keygenqt\share2\Share2;
+
+<?= Share2::widget([
+    'size' => 30,
+    'margin' => 10,
+
+    'icon_facebook' => Html::imgUrl('images/vendor/index/soc/fb.png'),
+    'icon_gplus' => Html::imgUrl('images/vendor/index/soc/g.png'),
+    'icon_twitter' => Html::imgUrl('images/vendor/index/soc/tw.png'),
+    'icon_linkedin' => Html::imgUrl('images/vendor/index/soc/li.png'),
+
+    'soc' => [Share2::SOC_FACEBOOK, Share2::SOC_TWITTER, Share2::SOC_GPLUS, Share2::SOC_LINKEDIN],
+
+    'title' => 'Title page',
+    'urlImage' => Html::imgUrl('images/image.png'),
+    'urlPage' => Yii::$app->request->getUrl(),
+
+]) ?>
 ```
 
 ## License
