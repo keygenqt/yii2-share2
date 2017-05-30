@@ -1,7 +1,7 @@
 yii2-share2
 ===================
 
-This is the Share2 widget and a Yii 2 enhanced wrapper for the [Block "Share"](https://tech.yandex.ru/share/).
+This is the Share2 widget and a Yii 2 enhanced wrapper for the Yandex [Block "Share"](https://tech.yandex.ru/share/).
 
 ## Installation
 
@@ -27,6 +27,7 @@ The latest version of the module is v0.5.0 `BETA`.
 use keygenqt\share2\Share2;
 
 <?= Share2::widget([
+    
     'size' => 30,
     'margin' => 10,
 

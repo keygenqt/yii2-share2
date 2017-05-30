@@ -7,6 +7,9 @@ use \yii\helpers\Html;
 ?>
 
 <style>
+    .yii2-share2-<?= $widget->getId() ?> {
+        height: <?= $widget->size ?>px;
+    }
     .yii2-share2-<?= $widget->getId() ?> .ya-share2__container_size_m .ya-share2__item {
         margin-right: <?= $widget->margin ?>px;
     }
