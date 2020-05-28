@@ -1,5 +1,8 @@
-yii2-share2
+Yii2 Share2
 ===================
+
+![GitHub](https://img.shields.io/github/license/keygenqt/yii2-share2)
+![Packagist Downloads](https://img.shields.io/packagist/dt/keygenqt/yii2-share2)
 
 This is the Share2 widget and a Yii 2 enhanced wrapper for the Yandex [Block "Share"](https://tech.yandex.ru/share/).
 
@@ -16,10 +19,6 @@ Either add
 ```
 
 of your `composer.json` file.
-
-## Latest Release
-
-The latest version of the module is v0.5.0 `BETA`.
 
 ## Usage
 
@@ -44,9 +43,3 @@ use keygenqt\share2\Share2;
 
 ]) ?>
 ```
-
-## License
-
-**yii2-image-ajax** is released under the BSD 3-Clause License. See the bundled `LICENSE.md` for details.
-
-
