@@ -62,3 +62,5 @@ const SOC_WHATSAPP = 'whatsapp';
 const SOC_SKYPE = 'skype';
 const SOC_TELEGRAM = 'telegram';
 ```
+
+Some social networks do not pay attention to the image parameter passed to them. In this case, [micro-marking](https://developer.mozilla.org/en-US/docs/Web/HTML/microformats) should be used.
