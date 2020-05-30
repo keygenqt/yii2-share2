@@ -54,7 +54,7 @@ class Share2 extends Widget
     public $urlPage;
     public $lang = 'en';
 
-    public $soc = ['facebook', 'twitter', 'gplus', 'linkedin'];
+    public $soc = ['facebook', 'twitter', 'linkedin'];
     public $jsOption = [];
 
     public function run()
@@ -135,38 +135,3 @@ class Share2 extends Widget
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

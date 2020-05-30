@@ -1,10 +1,10 @@
-Yii2 Share2
+[Yii2 Share2](http://keygenqt.com/work/yii2-share2)
 ===================
 
 ![GitHub](https://img.shields.io/github/license/keygenqt/yii2-share2)
 ![Packagist Downloads](https://img.shields.io/packagist/dt/keygenqt/yii2-share2)
 
-This is the Share2 widget and a Yii 2 enhanced wrapper for the Yandex [Block "Share"](https://tech.yandex.ru/share/).
+An easy way to add buttons soc network share. Widget uses the Yandex [Block "Share"](https://tech.yandex.ru/share/).
 
 ## Installation
 
@@ -14,7 +14,7 @@ Either add
 
 ```
 "require": {
-    "keygenqt/yii2-share2": "@dev"
+    "keygenqt/yii2-share2": "*"
 }
 ```
 
@@ -26,20 +26,39 @@ of your `composer.json` file.
 use keygenqt\share2\Share2;
 
 <?= Share2::widget([
-    
-    'size' => 30,
+    'size' => 40,
     'margin' => 10,
+    'lang' => 'en',
 
-    'icon_facebook' => Html::imgUrl('images/vendor/index/soc/fb.png'),
-    'icon_gplus' => Html::imgUrl('images/vendor/index/soc/g.png'),
-    'icon_twitter' => Html::imgUrl('images/vendor/index/soc/tw.png'),
-    'icon_linkedin' => Html::imgUrl('images/vendor/index/soc/li.png'),
+    'icon_facebook' => '/images/common/fb.png',
+    'icon_twitter' => '/images/common/tw.png',
+    'icon_linkedin' => '/images/common/in.png',
 
-    'soc' => [Share2::SOC_FACEBOOK, Share2::SOC_TWITTER, Share2::SOC_GPLUS, Share2::SOC_LINKEDIN],
+    'soc' => [Share2::SOC_FACEBOOK, Share2::SOC_TWITTER, Share2::SOC_LINKEDIN],
 
-    'title' => 'Title page',
-    'urlImage' => Html::imgUrl('images/image.png'),
-    'urlPage' => Yii::$app->request->getUrl(),
+    'title' => 'Panel Count',
+    'urlImage' => '/images/yii2/preview-share2.png',
+    'urlPage' => Url::base(true) . Yii::$app->request->getUrl(),
 
 ]) ?>
+```
+
+## FYI
+
+I did not overload all the options, there are a lot of them. Only the most basic. You can find all parameters 
+[here](https://tech.yandex.ru/share/doc/dg/add-docpage/)
+
+#### Has options
+
+```php
+const SOC_YA_COLLECTIONS = 'collections';
+const SOC_VK = 'vkontakte';
+const SOC_FACEBOOK = 'facebook';
+const SOC_GPLUS = 'gplus';
+const SOC_TWITTER = 'twitter';
+const SOC_LINKEDIN = 'linkedin';
+const SOC_VIBER = 'viber';
+const SOC_WHATSAPP = 'whatsapp';
+const SOC_SKYPE = 'skype';
+const SOC_TELEGRAM = 'telegram';
 ```
