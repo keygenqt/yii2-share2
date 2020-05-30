@@ -36,8 +36,8 @@ use keygenqt\share2\Share2;
 
     'soc' => [Share2::SOC_FACEBOOK, Share2::SOC_TWITTER, Share2::SOC_LINKEDIN],
 
-    'title' => 'Panel Count',
-    'urlImage' => '/images/yii2/preview-share2.png',
+    'title' => 'Yii2 Share',
+    'urlImage' => Url::base(true) . '/images/yii2/preview-share2.png',
     'urlPage' => Url::base(true) . Yii::$app->request->getUrl(),
 
 ]) ?>
