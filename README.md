@@ -1,4 +1,4 @@
-[Yii2 Share2](http://keygenqt.com/work/yii2-share2)
+[Yii2 Share2](https://keygenqt.com/work/yii2-share2)
 ===================
 
 ![GitHub](https://img.shields.io/github/license/keygenqt/yii2-share2)
