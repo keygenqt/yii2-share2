@@ -1,16 +1,19 @@
-[Yii2 Share2](https://keygenqt.com/work/yii2-share2)
+Yii2 Share2
 ===================
 
-![GitHub](https://img.shields.io/github/license/keygenqt/yii2-share2)
-![Packagist Downloads](https://img.shields.io/packagist/dt/keygenqt/yii2-share2)
+![Packagist Downloads](https://img.shields.io/packagist/dt/keygenqt/yii2-share2?label=Packagist%20Downloads)
 
 An easy way to add buttons soc network share. Widget uses the Yandex [Block "Share"](https://tech.yandex.ru/share/).
 
-## Installation
+<p>
+    <a href="https://old.keygenqt.com/work/yii2-share2">
+        <img src="data/demo_button.gif" width="136px"/>
+    </a>
+</p>
+
+#### Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
-
-Either add
 
 ```
 "require": {
@@ -18,9 +21,7 @@ Either add
 }
 ```
 
-of your `composer.json` file.
-
-## Usage
+#### Usage
 
 ```php
 use keygenqt\share2\Share2;
@@ -43,12 +44,12 @@ use keygenqt\share2\Share2;
 ]) ?>
 ```
 
-## FYI
+#### FYI
 
 I did not overload all the options, there are a lot of them. Only the most basic. You can find all parameters 
 [here](https://tech.yandex.ru/share/doc/dg/add-docpage/)
 
-#### Has options
+#### Options
 
 ```php
 const SOC_YA_COLLECTIONS = 'collections';
@@ -64,3 +65,21 @@ const SOC_TELEGRAM = 'telegram';
 ```
 
 Some social networks do not pay attention to the image parameter passed to them. In this case, [micro-marking](https://developer.mozilla.org/en-US/docs/Web/HTML/microformats) should be used.
+
+#### License
+
+```
+Copyright 2017-2024 Vitaliy Zarubin
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
